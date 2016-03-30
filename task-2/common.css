@@ -1,0 +1,178 @@
+body{
+    margin:0;
+    background-color: #DEDEDE;
+    font-family: "Microsoft YaHei" ! important;
+}
+article,aside{
+    margin:25px auto;
+    width:94%;
+    background-color: #FFF;
+    padding:37px 20px;
+    border-bottom: 3px solid #AEAEAE;
+    border-right: 3px solid #AEAEAE;
+    border-top:1px solid #CACACA;
+    border-left:1px solid #CACACA;
+}
+aside{
+    padding-top:10px;
+}
+#header{
+    height:60px;
+    background-color: #333333;
+}
+#webTitle{
+    float:left;
+    margin:10px 2%;
+    color:red;
+}
+#header nav{
+    float:right;
+    margin:5px 2% ;
+}
+#header nav ul li{
+    float: left;
+    margin-left:30px;
+}
+#header nav ul li.selected a{
+    color:#A2A7AD;
+}
+#header nav ul li a{
+    color:#FFF;
+    font-size:13px;
+    text-decoration: none;
+}
+
+#mainPage{
+    background-color: #DEDEDE;
+    margin:0;
+    padding:0;
+}
+.secondTitle,.author,.date{
+    color: #696E64;
+}
+p{
+    text-indent:2em;
+    line-height: 200%;
+}
+#secondArticle ul{
+    list-style-type: none;
+}
+figure{
+    border: 1px solid #CCCCCC;
+    width:320px;
+    text-align:center;
+}
+figure img{
+    width:300px;
+    margin-bottom: 10px;
+    display:inline;
+}
+figcaption{
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.otable{
+    width:94%;
+    border: 1px solid #CCCCCC;
+    border-spacing: 0;
+}
+
+.otable thead{
+    text-align: left;
+    background-color: #000;
+    color: #FFF;
+}
+.otable tfoot{
+    text-align: left;
+    background-color: #CCCCCC;
+}
+.otable th,td{
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+}
+aside h3{
+    margin-left:20px;
+}
+aside h3:before{
+    content:" ";
+    display: block;
+    width: 5px;
+    height:40px;
+    background-color: #CCCCCC;
+    position: relative;
+    top:30px;
+    left:-15px;
+}
+.int{
+    margin:10px auto;
+}
+.int .label{
+    float:left;
+    text-align: right;
+    width:200px;
+    margin-left:30%;
+    height:20px;
+}
+.int .tips{
+    color: #B9B9B9;
+    margin:10px 0 20px 0;
+    font-size:12px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+
+    color: #000;
+
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+
+    color: #000;
+
+}
+
+input:-ms-input-placeholder,
+
+textarea:-ms-input-placeholder {
+
+    color: #000;
+
+}
+
+input::-webkit-input-placeholder,
+
+textarea::-webkit-input-placeholder {
+
+    color: #000;
+
+}
+.subbtn{
+    width:92%;
+    margin:5px 4% 10px 4%;
+    height:35px;
+    background-color: #3355D0;
+    color: #FFF;
+    border-radius: 6px;
+    border: hidden;
+    font-family: "Microsoft YaHei" ! important;
+}
+#footer{
+    margin:0;
+    padding:0;
+    background-color: #000;
+    text-align: center;
+    height:80px;
+    color: #FFF;
+}
+#footer p{
+    padding-top:30px;
+}
+.int textarea{
+    width:50%;
+    height:150px;
+    font-size:20px!important;
+    font-family: "Microsoft YaHei" ! important;
+}
+input{
+    font-family: "Microsoft YaHei" ! important;
+}
